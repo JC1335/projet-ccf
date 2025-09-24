@@ -38,6 +38,6 @@ G2_5k.csv
 
 ## Auteurs
 
-- 👤 Jean-Christophe HAMARD 1 Dina HOURLIER (Étudiants Master IA)
+- 👤 Jean-Christophe HAMARD et Dina HOURLIER (Étudiants Master IA)
 
 

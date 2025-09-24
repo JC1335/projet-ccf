@@ -1,11 +1,13 @@
 # Projet CCF – 
 Ce projet implémente l'algorithme des composants connexes en Scala avec Spark selon trois approches :
 
+- ✅ RDD (PySpark) 
+- ✅ DataFrame (PySpark)
 - ✅ RDD (Scala)
 - ✅ DataFrame (Scala)
 - ✅ GraphX (Scala)
 
-## Structure du projet
+## Structure du projet (Scala)
 
 src/
 main/

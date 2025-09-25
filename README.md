@@ -23,7 +23,7 @@ data/
 G1_1k.csv
 G2_5k.csv
 G3_8k.csv
-G4_10k.csv
+G4_10k.csv/
 
 Python_Colab:
 

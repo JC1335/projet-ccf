@@ -51,6 +51,10 @@ RDD (PySpark) / DataFrame (PySpark) / => Final_Projet_Graph.ipynb
 
 Se référer à rapport_projet.doc
 
+## Rapport synthétique
+
+Finding_Connected_Components_in_Graph (1).pdf
+
 ## Auteurs
 
 - 👤 Jean-Christophe HAMARD et Dina HOURLIER (Étudiants Master IA)

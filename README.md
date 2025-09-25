@@ -38,6 +38,11 @@ G2_5k.csv
 | RDD (PySpark)  | 84.54  | 162.01 | 156.46 | 158.00 |
 | DataFrame (PySpark) | 135.07 | 100.33 | 269.29 | 108.96 |
 
+
+## Rapport détaillé
+
+Se référer à rapport_projet.doc
+
 ## Auteurs
 
 - 👤 Jean-Christophe HAMARD et Dina HOURLIER (Étudiants Master IA)

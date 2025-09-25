@@ -7,7 +7,9 @@ Ce projet implémente l'algorithme des composants connexes en Scala avec Spark s
 - ✅ DataFrame (Scala)
 - ✅ GraphX (Scala)
 
-## Structure du projet (Scala)
+## Structure du projet 
+
+Scala/Intellij:
 
 src/
 main/
@@ -20,6 +22,12 @@ Main.scala
 data/
 G1_1k.csv
 G2_5k.csv
+
+Python_Colab:
+
+RDD (PySpark) / DataFrame (PySpark)
+
+
 
 
 

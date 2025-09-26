@@ -1,5 +1,5 @@
-# Projet CCF – 
-Ce projet implémente l'algorithme des composants connexes en Scala avec Spark selon trois approches :
+# Projet CCF
+Ce projet implémente l'algorithme des composants connexes en Scala avec Spark selon quatre approches (+1: Graphx) :
 
 - ✅ RDD (PySpark) 
 - ✅ DataFrame (PySpark)
@@ -7,7 +7,9 @@ Ce projet implémente l'algorithme des composants connexes en Scala avec Spark s
 - ✅ DataFrame (Scala)
 - ✅ GraphX (Scala)
 
-## Structure du projet (Scala)
+## Structure du projet 
+
+Scala/Intellij:
 
 src/
 main/
@@ -20,6 +22,14 @@ Main.scala
 data/
 G1_1k.csv
 G2_5k.csv
+G3_8k.csv
+G4_10k.csv/
+
+Python_Colab:
+
+RDD (PySpark) / DataFrame (PySpark) / => Final_Projet_Graph.ipynb
+
+
 
 
 
@@ -41,7 +51,11 @@ G2_5k.csv
 
 ## Rapport détaillé
 
-Se référer à rapport_projet.doc
+Se référer à: rapport_projet.doc
+
+## Rapport synthétique
+
+Se référer à: Finding_Connected_Components_in_Graph (1).pdf
 
 ## Auteurs
 

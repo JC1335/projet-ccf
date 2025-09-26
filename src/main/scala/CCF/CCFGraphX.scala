@@ -15,7 +15,7 @@ object CCFGraphX {
 
     import spark.implicits._
 
-    // 📂 Liste des fichiers à analyser (chaque fichier représente un graphe)
+    // Liste des fichiers à analyser (chaque fichier représente un graphe)
     val files = Seq(
       ("data/G1_1k.csv", "G1"),
       ("data/G2_5k.csv", "G2"),
@@ -35,8 +35,8 @@ object CCFGraphX {
         .option("header", "true")       // Les fichiers ont des en-têtes
         .option("inferSchema", "true")  // On laisse Spark deviner les types de colonnes
         .csv(path)
-        .toDF("source", "target")       // On renomme pour plus de clarté
-        .withColumn("source", col("source").cast("long")) // GraphX utilise des IDs en Long
+        .toDF("source", "target")
+        .withColumn("source", col("source").cast("long"))
         .withColumn("target", col("target").cast("long"))
         .na.drop() // Suppression des lignes incomplètes s’il y en a
 
@@ -46,7 +46,7 @@ object CCFGraphX {
       // Exécution de l'algorithme CCF avec GraphX
       val (components, duration) = ccfGraphX(df, spark)
 
-      println(f"⏱️ Temps d'exécution : $duration%.3f sec")
+      println(f" Temps d'exécution : $duration%.3f sec")
       println("-" * 40)
 
       // Ajout des résultats à la liste
@@ -55,10 +55,10 @@ object CCFGraphX {
 
     // Affichage du résumé final
     val dfResults = results.toDF("Graphe", "Noeuds", "Arêtes", "Temps (s)")
-    println("\n✅ Résumé des performances (GraphX) :")
+    println("\n Résumé des performances (GraphX) :")
     dfResults.show(truncate = false)
 
-    println("\n🏁 Fin du programme CCF GraphX")
+    println("\n Fin du programme CCF GraphX")
     spark.stop()
   }
 

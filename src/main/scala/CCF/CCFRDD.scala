@@ -64,7 +64,7 @@ object CCFRDD {
 
   // Implémentation de l'algorithme Connected Components (CCF) en RDD
   def ccfRdd(edges: RDD[(Int, Int)], maxIters: Int = 50): (RDD[(Int, Int)], Int, Double) = {
-    // On commence par éliminer les doublons (on veut que (2,3) et (3,2) soient traités comme une seule arête)
+    // On commence par éliminer les doublons (on veut que (2,3) et (3,2) par exemple, soient traités comme une seule arête)
     val dedupedEdges = edges
       .map { case (a, b) =>
         if (a < b) (a, b) else (b, a) // On trie chaque paire pour pouvoir supprimer les doublons

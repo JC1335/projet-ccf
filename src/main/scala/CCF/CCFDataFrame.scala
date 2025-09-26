@@ -47,7 +47,7 @@ object CCFDataFrame {
       // Pour avoir tous les sommets uniques, on fusionne les colonnes source et target, puis on déduplique
       val nbNodes = df.select("source").union(df.select("target")).distinct().count()
 
-      // C'est ici qu'on applique notre algorithme CCF (Connected Components with DataFrame)
+      // On applique l'algorithme CCF (Connected Components with DataFrame)
       val (components, iters, duration) = ccfDF(df, spark)
 
       // Quelques infos pour le suivi

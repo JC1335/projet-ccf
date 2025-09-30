@@ -49,13 +49,9 @@ RDD (PySpark) / DataFrame (PySpark) / => Final_Projet_Graph.ipynb
 | DataFrame (PySpark) | 135.07 | 100.33 | 269.29 | 108.96 |
 
 
-## Rapport détaillé
+## Rapport 
 
-Se référer à: rapport_projet.doc
-
-## Rapport synthétique
-
-Se référer à: Finding_Connected_Components_in_Graph (1).pdf
+Se référer à: Rapport Finding Connected Components in Graph Final
 
 ## Auteurs
 

@@ -5,7 +5,7 @@ Ce projet implémente l'algorithme des composants connexes en Scala avec Spark s
 - ✅ DataFrame (PySpark)
 - ✅ RDD (Scala)
 - ✅ DataFrame (Scala)
-- ✅ GraphX (Scala)
+- ✅ GraphX (Scala) (expérimentation supplémentaire et proposition de test)
 
 ## Structure du projet 
 
